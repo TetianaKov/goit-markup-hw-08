@@ -1,0 +1,31 @@
+
+.logo {
+    font-family: Raleway, sans-serif;
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+
+    transition: color var(--time-duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+.logo__studio {
+    color: #000000;
+    
+}
+
+.footer__logo {
+    padding: 0;
+    margin: 0;
+}
+.footer__logo-studio {
+    color: #ffffff;
+}
